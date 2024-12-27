@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                   "Subject: $subject\n\n" .
                   "Message:\n$message";
 
-    // Your email address where you want to receive the messages
+    // email address where you want to receive the messages
     $to = "nkosiembatha09@gmail.com";
     $headers = "From: $email\n";
     $headers .= "Reply-To: $email";
